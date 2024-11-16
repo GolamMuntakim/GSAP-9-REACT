@@ -16,11 +16,27 @@ main{
   width: 100%;
   background-color: #111;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
-.box{
+.container{
+  padding: 30px;
+  border : 3px solid white;
+  border-radius: 20px;
+}
+.box {
   height: 300px;
   width: 300px;
-  background-color: crimson;
   border-radius: 10px;
+  margin: 20px;
+  background: linear-gradient(to right bottom,rgb(200, 91, 113), crimson);
+}
+
+.circle{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 20px;
+  background: linear-gradient(to right bottom ,lightblue, cadetblue);
 }
